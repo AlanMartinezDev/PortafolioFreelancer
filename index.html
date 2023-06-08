@@ -23,7 +23,7 @@
       <nav class="navegacion-principal contenedor">
         <a href="/">Inicio</a>
         <a href="#sobre-mi">Sobre mi</a>
-        <a href="#clientes">Clientes</a>
+        <a href="#servicios">Servicios</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </div>
@@ -35,8 +35,8 @@
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-map-pin"
-            width="88"
-            height="88"
+            width="60"
+            height="60"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="#FFC107"
@@ -57,7 +57,43 @@
     </section>
 
     <main class="contenedor sombra">
-      <h2>Mis servicios</h2>
+      <h2 id="sobre-mi">Sobre mi</h2>
+      <div class="sobre-mi">
+        <section class="sobre-mi-perfil">
+          <div class="iconos">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-user-code"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#000000"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+              <path d="M6 21v-2a4 4 0 0 1 4 -4h3.5" />
+              <path d="M20 21l2 -2l-2 -2" />
+              <path d="M17 17l-2 2l2 2" />
+            </svg>
+          </div>
+          <p>
+            Dolor sit amet consectetur adipisicing elit. Et, quia impedit
+            accusamus veniam numquam reprehenderit hic consectetur voluptate
+            voluptas eum. Asperiores, velit quasi assumenda distinctio
+            reiciendis harum vel quibusdam ullam! Dolor sit amet consectetur
+            adipisicing elit. Et, quia impedit accusamus veniam numquam
+            reprehenderit hic consectetur voluptate voluptas eum. Asperiores,
+            velit quasi assumenda distinctio reiciendis harum vel quibusdam
+            ullam!
+          </p>
+        </section>
+      </div>
+
+      <h2 id="servicios">Mis servicios</h2>
       <div class="servicios">
         <section class="servicio">
           <h3>Diseño Web</h3>
@@ -170,21 +206,42 @@
             <div class="contenedor-campos">
               <div class="campo">
                 <label for="nombre">Nombre</label>
-                <input class="input-text" type="text" id="nombre" placeholder="Tu nombre" />
+                <input
+                  class="input-text"
+                  type="text"
+                  id="nombre"
+                  placeholder="Tu nombre"
+                />
               </div>
               <div class="campo">
                 <label for="telefono">Teléfono</label>
-                <input class="input-text" type="tel" id="telefono" placeholder="Tu teléfono" />
+                <input
+                  class="input-text"
+                  type="tel"
+                  id="telefono"
+                  placeholder="Tu teléfono"
+                />
               </div>
 
               <div class="campo">
                 <label for="correo">Correo</label>
-                <input class="input-text" type="email" id="correo" placeholder="Tu correo" />
+                <input
+                  class="input-text"
+                  type="email"
+                  id="correo"
+                  placeholder="Tu correo"
+                />
               </div>
 
               <div class="campo">
                 <label for="mensaje">Mensaje</label>
-                <textarea class="input-text" name="" id="mensaje" cols="30" rows="10"></textarea>
+                <textarea
+                  class="input-text"
+                  name=""
+                  id="mensaje"
+                  cols="30"
+                  rows="10"
+                ></textarea>
               </div>
             </div>
 

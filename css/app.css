@@ -15,6 +15,7 @@ html {
 }
 
 /* Scroll snap*/
+.sobre-mi,
 .servicio,
 .navegacion-principal,
 .formulario {
@@ -66,6 +67,8 @@ body {
 
 .boton:hover {
   cursor: pointer;
+  background-color: var(--primario);
+  transition: background-color 0.3s ease;
 }
 
 .sombra {
@@ -181,6 +184,44 @@ h3 {
   align-items: flex-end;
 }
 
+/* Sobre mi */
+@media (min-width: 768px) {
+  .sobre-mi {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.sobre-mi-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobre-mi-perfil h3 {
+  color: var(--secundario);
+  font-weight: normal;
+}
+
+.sobre-mi-perfil p {
+  line-height: 2;
+}
+
+.sobre-mi-perfil .iconos {
+  height: 10rem;
+  width: 10rem;
+  background-color: var(--primario);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-mi-perfil .iconos:hover {
+  background-color: var(--secundario);
+  transition: background-color 0.3s ease;
+}
+
 /* Servicios */
 @media (min-width: 768px) {
   .servicios {
@@ -213,6 +254,11 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.servicio .iconos:hover {
+  background-color: var(--secundario);
+  transition: background-color 0.3s ease;
 }
 
 /* Contacto */

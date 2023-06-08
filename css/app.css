@@ -57,6 +57,7 @@ body {
   width: 90%;
   text-align: center;
   border: none;
+  transition: background-color 0.3s ease;
 }
 
 @media (min-width: 480px) {
@@ -68,7 +69,6 @@ body {
 .boton:hover {
   cursor: pointer;
   background-color: var(--primario);
-  transition: background-color 0.3s ease;
 }
 
 .sombra {
@@ -215,11 +215,11 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.3s ease;
 }
 
 .sobre-mi-perfil .iconos:hover {
   background-color: var(--secundario);
-  transition: background-color 0.3s ease;
 }
 
 /* Servicios */
@@ -254,11 +254,11 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.3s ease;
 }
 
 .servicio .iconos:hover {
   background-color: var(--secundario);
-  transition: background-color 0.3s ease;
 }
 
 /* Contacto */

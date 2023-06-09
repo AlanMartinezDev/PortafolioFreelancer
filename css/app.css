@@ -11,10 +11,10 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box; /* Ayuda para box model */
-  scroll-snap-type: y mandatory;
+  /* Auto scroll bug | scroll-snap-type: y mandatory; */
 }
 
-/* Scroll snap*/
+/* Scroll snap
 .sobre-mi,
 .servicio,
 .navegacion-principal,
@@ -22,6 +22,7 @@ html {
   scroll-snap-align: center;
   scroll-snap-stop: always;
 }
+*/
 
 *,
 *::before,

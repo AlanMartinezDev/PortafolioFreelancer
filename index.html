@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alan Martínez Freelancer</title>
+    <title>Alan Martínez | Desarrollador Web Junior</title>
     <link rel="preload" href="/css/normalize.css" as="style" />
     <link rel="stylesheet" href="/css/normalize.css" />
     <link
@@ -16,13 +16,16 @@
   </head>
   <body>
     <header>
-      <h1 class="titulo">Alan Martínez <span>Freelancer</span></h1>
+      <h1 class="titulo">
+        <a href="/" class="titulo__enlace">Alan Martínez</a>
+      </h1>
     </header>
 
     <div class="nav-bg">
       <nav class="navegacion-principal contenedor">
         <a href="/">Inicio</a>
         <a href="#sobre-mi">Sobre mi</a>
+        <a href="#proyectos">Proyectos</a>
         <a href="#servicios">Servicios</a>
         <a href="#contacto">Contacto</a>
       </nav>
@@ -30,13 +33,13 @@
 
     <section class="hero">
       <div class="contenido-hero">
-        <h2>Diseño y Desarrollo Web <span>Freelancer</span></h2>
+        <h2>Desarrollador Web <span>Junior</span></h2>
         <div class="ubicacion">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-map-pin"
-            width="60"
-            height="60"
+            width="50"
+            height="50"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="#FFC107"
@@ -57,7 +60,8 @@
     </section>
 
     <main class="contenedor sombra">
-      <h2 id="sobre-mi">Sobre mi</h2>
+      <span id="sobre-mi"></span>
+      <h2>Sobre mi</h2>
       <div class="sobre-mi">
         <section class="sobre-mi-perfil">
           <div class="iconos">
@@ -81,19 +85,144 @@
             </svg>
           </div>
           <p>
-            Dolor sit amet consectetur adipisicing elit. Et, quia impedit
-            accusamus veniam numquam reprehenderit hic consectetur voluptate
-            voluptas eum. Asperiores, velit quasi assumenda distinctio
-            reiciendis harum vel quibusdam ullam! Dolor sit amet consectetur
-            adipisicing elit. Et, quia impedit accusamus veniam numquam
-            reprehenderit hic consectetur voluptate voluptas eum. Asperiores,
-            velit quasi assumenda distinctio reiciendis harum vel quibusdam
-            ullam!
+            Soy Alan Martinez, un desarrollador web con experiencia tanto en
+            frontend como en backend. Me apasiona la creación de soluciones
+            innovadoras y la entrega de experiencias de usuario excepcionales.
+            Mi enfoque principal se encuentra en el desarrollo frontend, donde
+            tengo experiencia en el uso de tecnologías como HTML, CSS y
+            JavaScript, así como en el manejo de frameworks como React y Vue.js.
+            Mi objetivo es seguir especializándome en el frontend, y en un
+            futuro cercano, expandir mis conocimientos al desarrollo backend.
           </p>
         </section>
       </div>
 
-      <h2 id="servicios">Mis servicios</h2>
+      <span id="proyectos"></span>
+      <h2>Mis proyectos</h2>
+      <div class="proyectos">
+        <section class="proyecto">
+          <h3>
+            <a
+              href="https://github.com/AlanMartinezDev/BrainBlitz"
+              class="proyecto__enlace"
+              target="_blank"
+              >BrainBlitz</a
+            >
+          </h3>
+          <div class="iconos">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-apple-arcade"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#FFFFFF"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+              <path
+                d="M20 12.5v4.75a.734 .734 0 0 1 -.055 .325a.704 .704 0 0 1 -.348 .366l-5.462 2.58a5 5 0 0 1 -4.27 0l-5.462 -2.58a.705 .705 0 0 1 -.401 -.691l0 -4.75"
+              />
+              <path
+                d="M4.431 12.216l5.634 -2.332a5.065 5.065 0 0 1 3.87 0l5.634 2.332a.692 .692 0 0 1 .028 1.269l-5.462 2.543a5.064 5.064 0 0 1 -4.27 0l-5.462 -2.543a.691 .691 0 0 1 .028 -1.27z"
+              />
+              <path d="M12 7l0 6" />
+            </svg>
+          </div>
+          <p>
+            BrainBlitz es un juego en el que se presentan preguntas de trivia de
+            temas generales, como geografía, historia, ciencia y arte.
+            Programado en Node.js y Socket.io
+          </p>
+        </section>
+        <section class="proyecto">
+          <h3>
+            <a
+              href="https://github.com/AlanMartinezDev/JuicyPC"
+              class="proyecto__enlace"
+              target="_blank"
+              >JuicyPC</a
+            >
+          </h3>
+          <div class="iconos">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-laravel"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#FFFFFF"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M3 17l8 5l7 -4v-8l-4 -2.5l4 -2.5l4 2.5v4l-11 6.5l-4 -2.5v-7.5l-4 -2.5z"
+              />
+              <path d="M11 18v4" />
+              <path d="M7 15.5l7 -4" />
+              <path d="M14 7.5v4" />
+              <path d="M14 11.5l4 2.5" />
+              <path d="M11 13v-7.5l-4 -2.5l-4 2.5" />
+              <path d="M7 8l4 -2.5" />
+              <path d="M18 10l4 -2.5" />
+            </svg>
+          </div>
+          <p>
+            JuicyPC es una tienda online de informática y accesorios en el que
+            podrás comprar productos, ver por categorías, crear cuenta y demás.
+            Programado en Laravel.
+          </p>
+        </section>
+        <section class="proyecto">
+          <h3>
+            <a
+              href="https://github.com/AlanMartinezDev/ProjecteM12"
+              class="proyecto__enlace"
+              target="_blank"
+              >Gestión de reuniones</a
+            >
+          </h3>
+          <div class="iconos">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-calendar-time"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#FFFFFF"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"
+              />
+              <path d="M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+              <path d="M15 3v4" />
+              <path d="M7 3v4" />
+              <path d="M3 11h16" />
+              <path d="M18 16.496v1.504l1 1" />
+            </svg>
+          </div>
+          <p>
+            Gestión de reuniones es una aplicación web SPA (Single Page
+            Application) para el Institut Francesc Vidal i Barraquer. Programado
+            en Node.js y Express.
+          </p>
+        </section>
+      </div>
+
+      <span id="servicios"></span>
+      <h2>Mis servicios</h2>
       <div class="servicios">
         <section class="servicio">
           <h3>Diseño Web</h3>
@@ -198,7 +327,8 @@
         </section>
       </div>
 
-      <section id="contacto">
+      <span id="contacto"></span>
+      <section>
         <h2>Contacto</h2>
         <form action="" class="formulario">
           <fieldset>
@@ -254,7 +384,7 @@
     </main>
 
     <footer class="footer">
-      <p>Todos los derechos reservados. Alan Martínez Freelancer</p>
+      <p>Todos los derechos reservados. Alan Martínez</p>
     </footer>
   </body>
 </html>

@@ -5,6 +5,7 @@
   --secundario: #0097a7;
   --gris: #757575;
   --grisClaro: #dfe9f3;
+  --grisOscuro: #8797b6;
 }
 
 /* Globales */
@@ -101,6 +102,11 @@ h3 {
 /* Títulos */
 .titulo span {
   font-size: 2rem;
+}
+
+.titulo__enlace {
+  color: var(--oscuro);
+  text-decoration: none;
 }
 
 /* Utilidades */
@@ -221,6 +227,49 @@ h3 {
 
 .sobre-mi-perfil .iconos:hover {
   background-color: var(--secundario);
+}
+
+/* Proyectos */
+@media (min-width: 768px) {
+  .proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+  }
+}
+
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proyecto h3 {
+  color: var(--secundario);
+  font-weight: normal;
+}
+
+.proyecto__enlace {
+  color: var(--secundario);
+}
+
+.proyecto p {
+  line-height: 2;
+}
+
+.proyecto .iconos {
+  height: 10rem;
+  width: 10rem;
+  background-color: var(--grisOscuro);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.proyecto .iconos:hover {
+  background-color: var(--oscuro);
 }
 
 /* Servicios */
